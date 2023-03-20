@@ -84,22 +84,27 @@ body{
         justify-content: center;
         align-items: center;
         color:$primary-font--color;
-    }
 
-    h1 {
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 50px;
+        h1 {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 50px;
 
-        span{
-            color:$second--color;
+                span{
+                    color:$second--color;
+                }
+            }
+
+        h2{
+            text-transform: uppercase;
+            margin-top: 20px;
+            font-size: 20px;
         }
-    }
 
-    h2{
-        text-transform: uppercase;
-        margin-top: 20px;
-        font-size: 20px;
+        a{
+            text-decoration: none;
+            color: $primary-font--color;
+        }
     }
 
     .slidersPointers{
