@@ -1,0 +1,33 @@
+{
+  "name": "village-bresil",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigonpaiva/villagebresil.git"
+  },
+  "author": "Rodrigo Paiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigonpaiva/villagebresil/issues"
+  },
+  "homepage": "https://github.com/rodrigonpaiva/villagebresil#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "loader": "^2.1.1",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.1",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "style-loader": "^3.3.2"
+  }
+}
