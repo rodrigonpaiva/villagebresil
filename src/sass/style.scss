@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 *,
@@ -7,7 +7,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    font-family: 'Prompt', sans-serif;;
 }
 
 $primary--color:#000;
@@ -44,7 +44,7 @@ $primary-font--color:#FFF;
   align-items: center;
 
   background: hsl(220, 10%, 12%);
-  font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 200;
 }
 
 
@@ -380,5 +380,5 @@ button:focus+.design-container {
   left: 20px;
   color: hsla(0, 0%, 100%, .6);
   font-size: 16px;
-  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
 }
