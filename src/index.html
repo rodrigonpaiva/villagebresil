@@ -9,110 +9,115 @@
     <title>Village Bresil</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header">
-            <div class="logo">
-                <img src="" alt="">
-            </div>
-            <div class="menu">
-                <nav class="menu">
-                    <ul>
-                        <li class="active"><a href="">Home</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Our Projects</a></li>
+    <header class="container-fluid " id="header">
+      <div class="container " id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand col-sm-2"href="">Village Bresil</a>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link I</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link II</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link III</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link IV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link V</a>
+                        </li>
                     </ul>
-                </nav>
-            </div>
-        </div>
-            <div>
-                <div>
-                <ul>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Our Projects</a></li>
-                </ul>
-                </div>
-            </div>
-        </div>
+          </div>
+          <form class="w-auto">
+            <button class=" btn btn-outline-warning btn-dark me-2" type="button">Main button</button>
+            <button class="btn btn-outline-light btn-dark me-2" type="button">Main button</button>
+          </form>
+        </nav>
+      </div>
     </header>
     <main>
-        <div class="container">
-            <section class="banner">
-                <div class="sliders">
-                    <div class="slide">
-                        <div class="slideArea">
-                            <h1>design is About<br/><span>Communication</span></h1>
-                            <h2>Call Us: +00 0 1234 5678</h2>
-                            <a href="" class="button">Get in Touch!</a>
-                        </div>
+      <div class="container bg-dark" id="banner">
+        <section class="banner">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="https://via.placeholder.com/800x400.png?text=Image+1" class="d-block w-100" alt="...">
                     </div>
-                    <div class="slide">
-                        <div class="slideArea">
-                            <h1>design is About<br/><span>Communication</span></h1>
-                            <h2>Call Us: +00 0 1234 5678</h2>
-                            <a href="" class="button">Get in Touch!</a>
-                        </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="https://via.placeholder.com/800x400.png?text=Image+2" class="d-block w-100" alt="...">
                     </div>
-                    <div class="slide">
-                        <div class="slideArea">
-                            <h1>design is About<br/><span>Communication</span></h1>
-                            <h2>Call Us: +00 0 1234 5678</h2>
-                            <a href="" class="button">Get in Touch!</a>
-                        </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="https://via.placeholder.com/800x400.png?text=Image+3" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <div class="slidersPointers">
-                    <div class="pointer active"></div>
-                    <div class="pointer"></div>
-                    <div class="pointer"></div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </section>
-
-            <section class="default dark">
-                <div class="sectionTitle">Services</div>
-                <div class="sectionDescription">Services that we provide</div>
-                <div class="sectionBody">
-                    <div class="sectionServices">
-                        <div class="sectionService">
-                            <img src="assets/images/medalha.png" alt="">
-                            <h4>High Quality Design</h4>
-                            <p>Descricao de Algo</p>
-                        </div>
-                        <div class="sectionService">
-                            <img src="assets/images/estrela.png" alt="">
-                            <h4>High Quality Design</h4>
-                            <p>Descricao de Algo</p>
-                        </div>
-                        <div class="sectionService">
-                            <img src="assets/images/relogio.png" alt="">
-                            <h4>Regular Update</h4>
-                            <p>Descricao de Algo</p>
-                        </div>
-                        <div class="sectionService">
-                            <img src="assets/images/balao.png" alt="">
-                            <h4>Fast and free support</h4>
-                            <p>Descricao de Algo</p>
-                        </div>
+        </div>
+            <section class="container" id="servicesCards">
+              <div class="d-flex align-content-sm-around flex-wrap justify-content-sm-evenly m-auto row-gap-3 p-5" id="servicesIndex">
+                <div class="card text-center p-2 column-gap-3 serviceBoxIndex" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
+                <div class="card text-center p-2 serviceBoxIndex" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-center p-2 serviceBoxIndex" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card text-center serviceBoxIndex" style="width: 18rem;">
+                  <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
             </section>
         </div>
 
-        <section class="default light clients">
-            <div class="sectionBody bannerClient">
-                <div class="sectionLogoClients">
-                    <div><img src="assets/images/media/empresa1.png" alt=""></div>
-                    <div><img src="assets/images/media/empresa2.png" alt=""></div>
-                    <div><img src="assets/images/media/empresa3.png" alt=""></div>
-                    <div><img src="assets/images/media/empresa4.png" alt=""></div>
-                    <div><img src="assets/images/media/empresa5.png" alt=""></div>
-                    <div><img src="assets/images/media/empresa6.png" alt=""></div>
+        <section class="container-fluid">
+            <div class="container">
+                <div class="d-flex align-content-arrond flex-wrap p-5 justify-content-sm-evenly m-auto">
+                    <div class="mw-100"><img src="https://img.icons8.com/color/144/null/disney-logo.png" class="img-fluid" alt=""></div>
+                    <div class="mw--100"><img src="https://img.icons8.com/doodle/192/null/lyft.png" class="img-fluid" alt=""></div>
+                    <div class="mw-100"><img src="https://img.icons8.com/color/144/null/fedex.png" class="img-fluid" alt=""></div>
+                    <div class="mw-100"><img src="https://img.icons8.com/color/144/null/wish.png" class="img-fluid" alt=""></div>
+                    <div class="mw-100"><img src="https://img.icons8.com/color/144/null/ferrari-badge.png" class="img-fluid" alt=""></div>
+                    <div class="mw-100"><img src="https://img.icons8.com/color/144/null/youtube--v1.png" class="img-fluid" alt=""></div>
                 </div>
             </div>
         </section>
         <section>
-            <div class="container galleryLink">
+            <div class="container-fluid galleryLink">
+              <div class="row">
                 <div class="flip-card-container" style="--hue: 220">
                     <div class="flip-card">
                   
@@ -122,14 +127,6 @@
                           <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
                           <figcaption>Brohm Lake</figcaption>
                         </figure>
-                  
-                        <ul>
-                          <li>Detail 1</li>
-                          <li>Detail 2</li>
-                          <li>Detail 3</li>
-                          <li>Detail 4</li>
-                          <li>Detail 5</li>
-                        </ul>
                       </div>
                   
                       <div class="card-back">
@@ -166,14 +163,6 @@
                           <img src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Image 2">
                           <figcaption>Légende</figcaption>
                         </figure>
-                  
-                        <ul>
-                          <li>Detail 1</li>
-                          <li>Detail 2</li>
-                          <li>Detail 3</li>
-                          <li>Detail 4</li>
-                          <li>Detail 5</li>
-                        </ul>
                       </div>
                   
                       <div class="card-back">
@@ -182,7 +171,7 @@
                           <img src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image-2">
                         </figure>
                   
-                        <button>Book</button>
+                        <button class="btn btn-outline-light">Book</button>
                   
                         <div class="design-container">
                           <span class="design design--1"></span>
@@ -210,14 +199,6 @@
                           <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
                           <figcaption>Village Bresil</figcaption>
                         </figure>
-                  
-                        <ul>
-                          <li>Detail 1</li>
-                          <li>Detail 2</li>
-                          <li>Detail 3</li>
-                          <li>Detail 4</li>
-                          <li>Detail 5</li>
-                        </ul>
                       </div>
                   
                       <div class="card-back">
@@ -227,7 +208,7 @@
                           <img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Brohm Lake">
                         </figure>
                   
-                        <button class="k">Book</button>
+                        <button class="btn btn-outline-light">Book</button>
                   
                         <!-- can add svg here and remove these eight spans -->
                         <div class="design-container">
@@ -244,8 +225,15 @@
                   
                     </div>
                   </div>
-                
+                </div>
+                <div class="container">
+                  <div class="d-flex justify-content-center p-5">
+                    <button class="btn btn-outline-warning btn-dark" type="button">Main button</button>
+                    </div>
+                </div>
             </div>
+            
+
         </section>
     </main>
     <footer>
@@ -292,5 +280,14 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-</body>
+    <script type="importmap">
+      {
+        "imports": {
+          "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/esm/popper.min.js",
+          "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.esm.min.js"
+        }
+      }
+      </script>
+
+  </body>
 </html>
