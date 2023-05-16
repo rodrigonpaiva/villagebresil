@@ -34,6 +34,10 @@ body{
   align-items: center;
   background-color: $--white-1;
 
+
+  nav a img{
+    background-color: $--dark;
+  }
 }
 
 #banner{
